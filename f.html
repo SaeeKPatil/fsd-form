@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Comprehensive Form</title>
+    <link rel="stylesheet" href="f.css">
+     
+     
+</head>
+<body>
+    <h1> Form</h1>
+    <nav>
+        <ul>
+            <li><a href="college.html">COLLEGES</a></li>
+            <li><a href="f.html">FORM</a></li>
+            <li><a href="place.html">PLACES</a></li>
+            <li><a href="transport.html">TRANSPORT</a></li>
+            <li><a href="hitel.html">HOTEL</a></li>
+            
+        </ul>
+    </nav>
+    <form action="#" method="post" enctype="multipart/form-data">
+        <fieldset>
+            <legend>Personal Information</legend>
+            
+            <label for="text"><b>Text:</b></label>
+            <input type="text" id="text" name="text" placeholder="Text input">
+
+            <label for="password"><b>Password:</b></label>
+            <input type="password" id="password" name="password" placeholder="Password input">
+
+            <label for="email"><b>Email:</b></label>
+            <input type="email" id="email" name="email" placeholder="Email input">
+
+            <label for="number"><b>Number:</b></label>
+            <input type="number" id="number" name="number" min="1" max="100" placeholder="Number input">
+
+            <label for="range"><b>Range:</b></label>
+            <input type="range" id="range" name="range" min="0" max="100">
+
+            <label for="date"><b>Date:</b></label>
+            <input type="date" id="date" name="date">
+
+            <label for="time"><b>Time:</b></label>
+            <input type="time" id="time" name="time">
+
+            <label for="datetime-local"><b>Date and Time:</b></label>
+            <input type="datetime-local" id="datetime-local" name="datetime-local">
+
+            <label for="month"><b>Month:</b></label>
+            <input type="month" id="month" name="month">
+
+            <label for="week"><b>Week:</b></label>
+            <input type="week" id="week" name="week">
+
+            <label for="color"><b>Color:</b></label>
+            <input type="color" id="color" name="color">
+
+            <label for="file"><b>File Upload:</b></label>
+            <input type="file" id="file" name="file">
+
+            <label for="url"><b>URL:</b></label>
+            <input type="url" id="url" name="url" placeholder="URL input">
+
+            <label for="tel"><b>Telephone:</b></label>
+            <input type="tel" id="tel" name="tel" placeholder="Telephone input">
+
+            <label for="search"><b>Search:</b></label>
+            <input type="search" id="search" name="search" placeholder="Search input">
+
+            <label for="textarea"><b>Comments:</b></label>
+            <textarea id="textarea" name="textarea" rows="4" placeholder="Enter your comments here..."></textarea>
+
+            <div class="checkbox-group">
+                <b>Hobbies:</b><br>
+                <label for="cricket"><b>Cricket:</b></label>
+                <input type="checkbox" id="cricket" name="hobbies" value="cricket">
+                <label for="football"><b>Football:</b></label>
+                <input type="checkbox" id="football" name="hobbies" value="football">
+            </div>
+
+            <div class="radio-group">
+                <b>Gender:</b><br>
+                <label for="male"><b>Male:</b></label>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="female"><b>Female:</b></label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="other"><b>Other:</b></label>
+                <input type="radio" id="other" name="gender" value="other">
+            </div>
+
+            <label for="country"><b>Country:</b></label>
+            <select id="country" name="country">
+                <option value="" disabled selected>Select your country</option>
+                <option value="india">India</option>
+                <option value="nepal">Nepal</option>
+                <option value="usa">USA</option>
+                <option value="russia">Russia</option>
+            </select>
+
+            <button type="submit">Submit</button>
+        </fieldset>
+    </form>
+</body>
+</html>
