@@ -1,0 +1,19 @@
+body {
+    
+    background-color: white
+    }
+    header{
+      background-color:rgb(0, 0, 255);
+      color: aliceblue;
+      text-align:left;
+    }
+    table {
+      width: 100%;
+       }
+    th {
+        background-color: blue;
+        color: white;
+    }
+    table, th, td {
+      border:1px solid black;
+    }

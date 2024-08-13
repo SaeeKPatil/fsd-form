@@ -1,0 +1,22 @@
+.icon-text {
+  display: flex;
+  align-items: center;
+}
+.icon-text img {
+  margin-right: 8px;  }
+  header{
+    background-color:purple;
+    color:aliceblue;
+    text-align:left;
+  }
+body{
+  background-color: white;
+  color:black;
+}
+.box {
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin: 10px;
+  background-color:lavender;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  
+}

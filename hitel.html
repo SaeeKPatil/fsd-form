@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOTEL</title>
+    <link rel="stylesheet" href="h.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", Arial, Helvetica, sans-serif}
+</style>
+
+
+</head>
+<body class="w3-light-grey">
+
+<!-- Navigation Bar -->
+<div class="w3-bar w3-white w3-large">
+  <a href="#" class="w3-bar-item w3-button w3-blue w3-mobile"><i class="fa fa-bed w3-margin-right"></i>HOTELS IN PUNE</a>
+  <a href="#rooms" class="w3-bar-item w3-button w3-mobile">Rooms</a>
+  <a href="#about" class="w3-bar-item w3-button w3-mobile">About</a>
+  <a href="#contact" class="w3-bar-item w3-button w3-mobile">Hotel</a>
+  <a href="#hotels" class="w3-bar-item w3-button w3-right w3-light-grey w3-mobile">Hotels</a>
+</div>
+<!-- Header -->
+<header class="w3-display-container w3-content" style="max-width:1500px;">
+  <img class="w3-image" src="disneyland-hotel.jpg" alt="The Hotel" style="min-width:1000px" width="1500" height="800">
+  <div class="w3-display-left w3-padding w3-col l6 m8">
+    <div class="w3-container w3-blue">
+      <h2><i class="fa fa-bed w3-margin-right"></i>Hotel Name</h2>
+    </div>
+    <div class="w3-container w3-white w3-padding-16">
+      <form action="/action_page.php" target="_blank">
+        <div class="w3-row-padding" style="margin:0 -16px;">
+          <div class="w3-half w3-margin-bottom">
+            <label><i class="fa fa-calendar-o"></i> Check In</label>
+            <input class="w3-input w3-border" type="text" placeholder="DD MM YYYY" name="CheckIn" required>
+          </div>
+          <div class="w3-half">
+            <label><i class="fa fa-calendar-o"></i> Check Out</label>
+            <input class="w3-input w3-border" type="text" placeholder="DD MM YYYY" name="CheckOut" required>
+          </div>
+        </div>
+        <div class="w3-row-padding" style="margin:8px -16px;">
+          <div class="w3-half w3-margin-bottom">
+            <label><i class="fa fa-male"></i> Adults</label>
+            <input class="w3-input w3-border" type="number" value="1" name="Adults" min="1" max="6">
+          </div>
+          <div class="w3-half">
+            <label><i class="fa fa-child"></i> Kids</label>
+          <input class="w3-input w3-border" type="number" value="0" name="Kids" min="0" max="6">
+          </div>
+        </div>
+        <button class="w3-button w3-dark-grey" type="submit"><i class="fa fa-search w3-margin-right"></i> Search availability</button>
+      </form>
+    </div>
+  </div>
+</header>
+
+</head>
+<body>
+     
+    <nav>
+        <ul>
+            <li><a href="college.html">COLLEGES</a></li>
+            <li><a href="f.html">FORM</a></li>
+            <li><a href="place.html">PLACES</a></li>
+            <li><a href="transport.html">TRANSPORT</a></li>
+            <li><a href="hitel.html">HOTEL</a></li>
+            
+        </ul>
+    </nav>
+
+    <h1>Hotels in Pune</h1>
+    <!-- About -->
+<div id="about" class="w3-container w3-padding-32">
+    <h2 class="w3-border-bottom w3-border-light-grey w3-padding-16">About</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint
+    occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+    laboris nisi ut aliquip ex ea commodo consequat.
+    </p>
+    </div>
+    
+    <div class="w3-row-padding w3-grayscale">
+    
+    <div class="w3-col l3 m6 w3-margin-bottom">
+    <img src="grand1.jpg" alt="Hotel grand central" width="200" height="200">
+    <h3>Hotel Central Park</h3>
+    <p class="w3-opacity">CEO &amp; Founder</p>
+    <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+    <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
+    </div>
+    
+    <div class="w3-col l3 m6 w3-margin-bottom">
+    <img src="cocoon-hotel.jpg" alt="Cocoon" width="200" height="200">
+    <h3>Cocoon</h3>
+    <p class="w3-opacity">Architect</p>
+    <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+    <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
+    </div>
+    
+    <div class="w3-col l3 m6 w3-margin-bottom">
+    <img src="amano2.jpg" alt="Mike" width="200" height="200">
+    <h3>
+        AMANORA THE FERNS HOTEL</h3>
+    <p class="w3-opacity">Architect</p>
+    <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+    <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
+    </div>
+    
+    <div class="w3-col l3 m6 w3-margin-bottom">
+    <img src="cori1.jpg" alt="Dan" width="200" height="200">
+    <h3>The Corinthians Resort & Club</h3>
+    <p class="w3-opacity">Architect</p>
+    <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+    <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+        <img src="sayaji.jpg" alt="Dan" width="200" height="200">
+        <h3>Hotel Sayaji</h3>
+        <p class="w3-opacity">Architect</p>
+        <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+        <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
+    </div>
+    
+    </div>
+    
+    
+    <h2>THE CENTRAL PARK PUNE</h2>
+    <img src="the-central-park-hotel.jpg" height="400",width="500"><br><br>
+    <p>#1 Best Value of 2,187 places to stay in Pune
+        Charming hotel offering consistently good food, both vegetarian and non-vegetarian. Praised for its excellent service, spacious rooms, and comfortable beds. Conveniently located near the Pune railway station.
+        A 5-minute walk from Pune Railway Station, The Central Park offers non-smoking rooms with a cable TV. This hotel features a rooftop swimming pool, fitness centre and 4 dining options. Free parking are provided.
+
+The Central Park is a 10-minute walk from the lively M.G. Road and the Central Business District. Pune Airport is a 15-minute drive from the hotel.
+
+Rooms at The Central Park are fitted with modern interiors and warm lighting. Each is equipped with a tea/coffee maker and private bathroom with shower facilities.
+
+Guests can enjoy body treatments at the spa, or spend some quiet time in the library. The hotel provides car rental and currency exchange services. Travel bookings can be made at the tour desk.
+
+The rooftop Smoke on the Water restaurant serves grilled dishes, while waffles and sandwiches are available at Flap Jack. Other dining choices include refreshing drinks at Restolounge Zanzibar.
+        </p><br><br>
+        <img src="grand1.jpg" height="400" width="500">
+        <img src="grand2.jpg" height="400" width="500">
+        <h3>MOST POPULAR FACILITIES:</h3>
+        <div class="icon">
+            <img src="SWIM.png" height="30" width="30">
+            <span>Outdoor swimming pool</span>
+        </div> <br>
+        <div class="icon">
+            <img src="wifi.png" height="30" width="30">
+            <span>Free wifi</span>
+        </div> <br>
+        <div class="icon">
+            <img src="resta.png" height="30" width="30">
+            <span>Restaurant</span>
+        </div> <br>
+        <div class="icon">
+            <img src="family.png" height="30" width="30">
+            <span>Family rooms</span>
+        </div>
+        <div class="icon">
+            <img src="breakfast.png" height="30" width="30">
+            <span>Good breakfast</span>
+        </div>
+        <h3>ROOMS:</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>
+                        ROOM TYPE</th>
+                    <th>NUMBER OF GUESTS </th>
+                     
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Superior room:1 large double bed</td>
+                    <td>3+1</td>
+                     
+                </tr>
+                <tr>
+                    <td>Smart space room:2 single beds or 1 xl double bed</td>
+                    <td>2+1</td>
+                     
+                </tr>
+                
+                <tr>
+                    <td>Suite room:1 double bed</td>
+                   
+                    <td>2+1</td>
+                   
+                    
+                </tr>
+                
+            </tbody>
+        </table> <br> <br>
+        <img src="REVIEWS.png" width="500" height="400"> <br> <br>
+        <a href="https://thecentralparkhotel.com/" target="_blank">Visit Website</a><br><br>
+    
+    <h2>THE COCOON</h2>
+    <img src="cocoon-hotel.jpg" height="400",width="500"><br><br>
+    <p>#2 Best Value of 2,187 places to stay in Pune
+        Spacious hotel offering excellent amenities, including separate living areas, balconies and kitchen facilities. Notable for its efficient room service, impressive room maintenance, and fine dining. Ideal for working guests, with a conveniently close location to Magarpatta City.
+        Situated in Pune, 8.8 km from Darshan Museum, Cocoon Hotel features accommodation with a fitness centre, free private parking, a restaurant and a bar. This 3-star hotel offers room service, a 24-hour front desk and free WiFi. The accommodation provides an ATM, a concierge service and organising tours for guests.
+
+At the hotel the rooms include air conditioning, a desk, a flat-screen TV, a private bathroom, bed linen, towels and a balcony with a city view. All rooms will provide guests with a wardrobe and a kettle.
+
+Breakfast is available each morning, and includes buffet, continental and Full English/Irish options.
+
+Aga Khan Palace is 9.1 km from Cocoon Hotel, while Pune Railway Station is 9.4 km from the property. The nearest airport is Pune International Airport, 10 km from the accommodation.</p><br><br>
+<br> <br>
+<img src="cocoon1.jpg" height="400" width="500">
+<img src="cocoon2.jpg" height="400" width="500"> <br>
+<h3>MOST POPULAR FACILITIES:</h3>
+<div class="icon">
+    <img src="SWIM.png" height="30" width="30">
+    <span>Outdoor swimming pool</span>
+</div> <br>
+<div class="icon">
+    <img src="rooms.jpg" height="30" width="30">
+    <span>Room service</span>
+</div> <br>
+<div class="icon">
+    <img src="resta.png" height="30" width="30">
+    <span>Restaurant</span>
+</div> <br>
+<div class="icon">
+    <img src="family.png" height="30" width="30">
+    <span>Family rooms</span>
+</div>
+<div class="icon">
+    <img src="breakfast.png" height="30" width="30">
+    <span>Good breakfast</span>
+</div>
+<h3>ROOMS:</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>
+                        ROOM TYPE</th>
+                    <th>NUMBER OF GUESTS </th>
+                     
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Silk suite:1 large doubled bed or 2 single beds</td>
+                    <td>3+1</td>
+                     
+                </tr>
+                <tr>
+                    <td>Premium suite room:2 single beds</td>
+                    <td>3+1</td>
+                     
+                </tr>
+                
+                <tr>
+                    <td>Royal silk suite:1 large doubled bed</td>
+                   
+                    <td>2+1</td>
+                   
+                    
+                </tr>
+                
+            </tbody>
+        </table> <br> <br>
+        <img src="rev2.png" height="400" width="500"> <br> <br>
+        <a href="https://www.cocoonpune.com/" target="_blank">Visit Website</a><br><br>
+    <h2>AMANORA THE FERNS HOTEL</h2>
+    <img src="amano2.jpg" height="400",width="500"><br><br>
+    <P>#3 Best Value of 2,187 places to stay in Pune
+        Ideal for special occasions with well-maintained property, serene ambiance, and fantastic views. Distinguished for excellent service, delectable food, and a superb dining experience at the on-site restaurant.
+        Set in Pune, 8.8 km from Aga Khan Palace, Amanora The Fern Hotels & Club offers accommodation with an outdoor swimming pool, free private parking, a fitness centre and a garden. The property has a bar, as well as a restaurant serving Indian cuisine. The accommodation features a 24-hour front desk, airport transfers, room service and free WiFi throughout the property.
+
+        Darshan Museum is 11 km from the hotel, while Pune Railway Station is 12 km from the property. The nearest airport is Pune International Airport, 10 km from Amanora The Fern Hotels & Club.    
+    </P> <br> <br>
+    <img src="amano1.jpg" height="400" width="500">
+<img src="amanora-the-fern.jpg" height="400" width="500"> <br>
+<h3>MOST POPULAR FACILITIES:</h3>
+<div class="icon">
+    <img src="SWIM.png" height="30" width="30">
+    <span>Outdoor swimming pool</span>
+</div> <br>
+<div class="icon">
+    <img src="rooms.jpg" height="30" width="30">
+    <span>Room service</span>
+</div> <br>
+<div class="icon">
+    <img src="resta.png" height="30" width="30">
+    <span>Restaurant</span>
+</div> <br>
+<div class="icon">
+    <img src="family.png" height="30" width="30">
+    <span>Family rooms</span>
+</div>
+<div class="icon">
+    <img src="breakfast.png" height="30" width="30">
+    <span>Good breakfast</span>
+</div>
+<h3>ROOMS:</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>
+                        ROOM TYPE</th>
+                    <th>NUMBER OF GUESTS </th>
+                     
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Hazel suite:1  extra-large doubled ved</td>
+                    <td>2+1</td>
+                     
+                </tr>
+                <tr>
+                    <td>Standar twin room room:1 single bed</td>
+                    <td>2</td>
+                     
+                </tr>
+                
+                <tr>
+                    <td>Wintergreen premium garden view room:1 large doubled bed</td>
+                   
+                    <td>2+1</td>
+                   
+                    
+                </tr>
+                
+            </tbody>
+        </table> <br> <br>    
+        <img src="re3.png" height="400" width="500"> <br> <br>
+        <a href="https://www.fernhotels.com/amanora-the-fern-hotel" target="_blank">Visit Website</a><br><br>
+        <h2>The Corinthians Resort & Club</h2>
+        <img src="cori1.jpg" height="400" width="500"> <br> <br>
+
+        <p>
+            Set in Pune, 11 km from Darshan Museum, The Corinthians Resort & Club offers accommodation with a fitness centre, free private parking, a garden and a restaurant. This 5-star resort offers room service and a concierge service. The accommodation provides a 24-hour front desk, airport transfers, a kids' club and free WiFi throughout the property.
+
+            The resort will provide guests with air-conditioned rooms with a desk, a kettle, a minibar, a safety deposit box, a flat-screen TV and a private bathroom with a shower. At The Corinthians Resort & Club every room has bed linen and towels.
+            
+            The daily breakfast offers buffet, continental or vegetarian options.
+            
+            The accommodation offers an outdoor pool. You can play table tennis at The Corinthians Resort & Club, and bike hire and car hire are available.
+            
+            Pune Railway Station is 12 km from the resort, while Raja Dinkar Kelkar Museum is 12 km away. The nearest airport is Pune International Airport, 16 km from The Corinthians Resort & Club. 
+
+        </p> <br> <br>
+        <img src="cori2.jpg" height="400" width="500">
+        <img src="cori3.jpg" height="400" width="500"> <br>
+        <h3>MOST POPULAR FACILITIES:</h3>
+        <div class="icon">
+            <img src="SWIM.png" height="30" width="30">
+            <span>Outdoor swimming pool</span>
+        </div> <br>
+        <div class="icon">
+            <img src="rooms.jpg" height="30" width="30">
+            <span>Room service</span>
+        </div> <br>
+        <div class="icon">
+            <img src="resta.png" height="30" width="30">
+            <span>Restaurant</span>
+        </div> <br>
+        <div class="icon">
+            <img src="family.png" height="30" width="30">
+            <span>Family rooms</span>
+        </div>
+        <div class="icon">
+            <img src="breakfast.png" height="30" width="30">
+            <span>Fabulous breakfast</span>
+        </div>
+        <h3>ROOMS:</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>
+                                ROOM TYPE</th>
+                            <th>NUMBER OF GUESTS </th>
+                             
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Deluxe room:1   doubled bed</td>
+                            <td>3+2</td>
+                             
+                        </tr>
+                        <tr>
+                            <td> Classic room:1 doubled bed</td>
+                            <td>3+2</td>
+                             
+                        </tr>
+                        
+                        <tr>
+                            <td> Premium garden view room:1  extra-large doubled bed,sofa bed</td>
+                           
+                            <td>3+2</td>
+                           
+                            
+                        </tr>
+                        
+                    </tbody>
+                </table> <br> <br>    
+                <img src="re4.png" height="400" width="500"> <br> <br>
+                <a href=" https://www.thecorinthianspune.com/" target="_blank">Visit Website</a><br><br>
+                <h2>Sayaji hotel </h2>
+                <img src="sayaji.jpg" height="400" width="500"> <br> <br>
+                <p>Sayaji Pune Hotel offers 5-star accommodation with a large, outdoor pool and 2 dining options. It provides free Wi-Fi and has a tour desk which helps guests organise excursions to tourist attractions.
+
+                    The spacious air-conditioned rooms feature a comfortable seating area and an en suite bathroom. They are equipped with a flat-screen satellite TV, a safe and a minibar.
+                    
+                    Portico restaurant serves local, Chinese and Western dishes. Turque Poolside Lounge provides delicious Asian dishes. There is also a bar on site.
+                    
+                    Sayaji Hotel is about 22 km from Pune International Airport. Balewadi Stadium is only 4.4 km away, while Hinjewadi is 5.2 km from the hotel.</p> <br> <br>
+                    <img src="sayaji1.jpg" height="400" width="500">
+                    <img src="sayaji2.jpg" height="400" width="500"> <br>
+                    <h3>MOST POPULAR FACILITIES:</h3>
+                    <div class="icon">
+                        <img src="SWIM.png" height="30" width="30">
+                        <span>Outdoor swimming pool</span>
+                    </div> <br>
+                    <div class="icon">
+                        <img src="rooms.jpg" height="30" width="30">
+                        <span>Room service</span>
+                    </div> <br>
+                    <div class="icon">
+                        <img src="resta.png" height="30" width="30">
+                        <span>Restaurant</span>
+                    </div> <br>
+                    <div class="icon">
+                        <img src="family.png" height="30" width="30">
+                        <span>Family rooms</span>
+                    </div>
+                    <div class="icon">
+                        <img src="breakfast.png" height="30" width="30">
+                        <span>Fabulous breakfast</span>
+                    </div>
+                    <h3>ROOMS:</h3>
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>
+                                            ROOM TYPE</th>
+                                        <th>NUMBER OF GUESTS </th>
+                                         
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td> Grand double room:1  large doubled bed</td>
+                                        <td>3+1</td>
+                                         
+                                    </tr>
+                                    <tr>
+                                        <td> Premium Grande room 1  ;argedoubled bed</td>
+                                        <td>3+1</td>
+                                         
+                                    </tr>
+                                    
+                                    <tr>
+                                        <td>  Sameday use room:1  e  doubled bed </td>
+                                       
+                                        <td>2</td>
+                                       
+                                        
+                                    </tr>
+                                    
+                                </tbody>
+                            </table> <br> <br>    
+                            <img src="re5.png" height="400" width="500"> <br> <br>
+                            <a href=" https://sayajihotels.com/our-hotels/sayaji-pune/" target="_blank">Visit Website</a><br><br>
+                        
+</body>
+</html>
